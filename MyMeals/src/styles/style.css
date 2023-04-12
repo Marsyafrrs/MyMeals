@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ html{
+  scroll-behavior: smooth;
+}
+
+ body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header > meals-nav > nav > .navbar-brand{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+
+main > meals-jumbotron > .jumbotron {
+    background-image: url(/src/img/jumbotron.jpg);
+    background-size: cover;
+    height: 450px;
+    margin-top: -40px;
+}
+
+main  meals-jumbotron  .jumbotron  .display-4 {
+    margin-left: 100px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+main  meals-jumbotron  .jumbotron .lead {
+    color: aliceblue;
+    margin-left: 60px;
+}
+
+meals-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 16px;
+}
+  meal-item {
+    max-height: 800px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: justify;
+    overflow: hidden;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+footer{
+    padding: 30px 0;
+    text-align: center;
+  }
+
+.backtoup .btn{
+    margin-left: 43%;
+    background-color: #403b40;
+    border: none;
+    border-radius: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+.backtoup .btn:hover{
+    -webkit-box-shadow: -1px 9px 27px -8px rgb(248, 136, 233);
+    -moz-box-shadow: -1px 9px 27px -8px rgb(248, 136, 233);
+    box-shadow: -1px 9px 27px -8px rgb(248, 136, 233);
+    color: rgb(248, 136, 233);
+}
